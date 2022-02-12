@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1B4B4"
-    tools:context=".MainActivity2">
+    android:background="#C9A2E4"
+    tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/tvSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="clicks"
         android:text="Hello world"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,6 +24,7 @@
         android:id="@+id/btnSaludar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="clicks"
         android:text="@string/saludo"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
